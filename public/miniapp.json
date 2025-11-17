@@ -1,0 +1,11 @@
+{
+  "id": "5050-taixiu",
+  "name": "5050",
+  "description": "A 50-50 Tai–Xiu style lottery game.",
+  "icon": "https://5050-main.vercel.app/favicon.png",
+  "web_url": "https://5050-main.vercel.app",
+  "developer": {
+    "name": "Toandev",
+    "url": "https://thietkeweb2tr.com"
+  }
+}
