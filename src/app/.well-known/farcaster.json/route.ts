@@ -24,8 +24,11 @@ export async function GET() {
     }),
     {
       headers: {
-        "Content-Type": "application/json"
-      }
+      "Content-Type": "application/json",
+      "X-Frame-Options": "ALLOWALL",
+      "Access-Control-Allow-Origin": "*",
+      "Content-Security-Policy": "frame-ancestors *;",
+    }
     }
   );
 }
