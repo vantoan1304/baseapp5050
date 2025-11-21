@@ -333,6 +333,7 @@ export default function GameInterface() {
                                         <div>
                                             <p className="pixel-font text-white font-bold">{t.contractVault}</p>
                                             <p className="text-2xl font-bold retro-green glitch-text">
+                                                
                                                 {contractBalance ? formatEther(contractBalance) : '0'} ETH
                                             </p>
                                         </div>
